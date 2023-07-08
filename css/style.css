@@ -38,8 +38,8 @@ ol {
 span {
   color: #2e2f42;
 }
-img{
-  display: block ;
+img {
+  display: block;
 }
 
 .link {
@@ -53,15 +53,15 @@ img{
 /**--Header section--*/
 
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
   flex-grow: 1;
-  align-items: center; 
-  gap: 40px
+  align-items: center;
+  gap: 40px;
 }
 .header-logo-link {
   color: #4d5ae5;
@@ -117,7 +117,6 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  gap: 40px
 }
 .header-spc:hover {
   color: #404bbf;
@@ -127,7 +126,7 @@ img{
 }
 .adres {
   font-style: normal;
-  gap: 40px
+  gap: 40px;
 }
 
 .lict {
@@ -135,6 +134,7 @@ img{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  gap: 40px;
 }
 
 .linc-com-tel {
@@ -191,7 +191,7 @@ img{
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-  border: none; 
+  border: none;
 }
 .sec-button:hover {
   color: #ffffff;
@@ -204,7 +204,7 @@ img{
 
 /**section2*/
 
-.section-cpdt{
+.section-cpdt {
   padding: 120px 0;
 }
 .sec-cpdt {
@@ -238,7 +238,7 @@ img{
 /**section3*/
 
 .sec-es-wd {
-  padding-bottom: 120px; 
+  padding-bottom: 120px;
 }
 .sec-es-title {
   color: var(--accent-color);
@@ -255,8 +255,8 @@ img{
   gap: 24px;
   padding-bottom: 120px;
 }
-.sec-es-img-all{
-  width: calc((100% - 48px) / 3); 
+.sec-es-img-all {
+  width: calc((100% - 48px) / 3);
 }
 
 /**section4*/
@@ -268,6 +268,7 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .sec-ot-text {
   color: var(--accent-color);
@@ -286,9 +287,9 @@ img{
 .all {
   background-color: #ffffff;
   display: block;
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
 }
-.mark{
+.mark {
   padding: 32px 16px;
 }
 .com {
@@ -299,7 +300,7 @@ img{
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   text-align: center;
-  padding: 0px; 
+  padding: 0px;
 }
 .all-txt {
   color: var(--all-txt-color);
@@ -307,7 +308,7 @@ img{
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center; 
+  text-align: center;
   padding: 0px;
 }
 
@@ -318,7 +319,6 @@ img{
   padding: 100px 0;
 }
 .foot-sexion {
-  
 }
 .footer-logo {
   display: inline-block;
@@ -329,7 +329,7 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 .footer-logo:hover {
   color: #404bbf;
@@ -367,13 +367,13 @@ img{
 
 /**btn*/
 
-.sex-portfolio{
+.sex-portfolio {
   padding-top: 96px;
-   padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-btn {
 }
-.visually-hidden{
+.visually-hidden {
   margin: -1px;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -384,7 +384,7 @@ img{
   gap: 24px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 72px ;
+  margin-bottom: 72px;
 }
 
 .btn-all {
@@ -423,12 +423,11 @@ img{
   justify-content: center;
   align-items: center;
   column-gap: 24px;
-  row-gap: 48px; 
+  row-gap: 48px;
   background-color: #fff;
-  
 }
 .sex-img-all {
-  width: calc((100% - 48px) / 3); 
+  width: calc((100% - 48px) / 3);
   display: block;
   width: 360px;
   height: 420px;
@@ -438,8 +437,8 @@ img{
   gap: 32px;
   flex-shrink: 0;
 }
-.app{
-  padding: 32px 16px
+.app {
+  padding: 32px 16px;
 }
 
 .com {
