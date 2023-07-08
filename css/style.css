@@ -38,6 +38,9 @@ ol {
 span {
   color: #2e2f42;
 }
+img{
+  display: block ;
+}
 
 .link {
   text-decoration: none;
@@ -57,6 +60,8 @@ span {
 .header-nav {
   display: flex;
   flex-grow: 1;
+  align-items: center; 
+  gap: 40px
 }
 .header-logo-link {
   color: #4d5ae5;
@@ -112,6 +117,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  gap: 40px
 }
 .header-spc:hover {
   color: #404bbf;
@@ -121,6 +127,7 @@ span {
 }
 .adres {
   font-style: normal;
+  gap: 40px
 }
 
 .lict {
@@ -153,11 +160,10 @@ span {
 
 .sec-es {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hiro-cont {
-  padding-bottom: 188px;
-  padding-top: 188px;
 }
 .sec-title {
   color: var(--txt-color);
@@ -183,6 +189,9 @@ span {
   margin-top: 48px;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none; 
 }
 .sec-button:hover {
   color: #ffffff;
@@ -195,6 +204,9 @@ span {
 
 /**section2*/
 
+.section-cpdt{
+  padding: 120px 0;
+}
 .sec-cpdt {
   display: flex;
   padding-left: 15px;
@@ -202,13 +214,12 @@ span {
   margin: 0px auto;
 }
 .s-title {
-  width: calc((100% - 72px) / 4);
   gap: 24px;
-  padding-top: 206px;
   padding-bottom: 112px;
 }
 .one-sex {
   min-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .cpdt {
   color: var(--accent-color);
@@ -227,6 +238,7 @@ span {
 /**section3*/
 
 .sec-es-wd {
+  padding-bottom: 120px; 
 }
 .sec-es-title {
   color: var(--accent-color);
@@ -236,16 +248,15 @@ span {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .sec-wd-img {
-  display: flex;
-  width: calc((100% - 48px) / 3);
+  display: block;
   gap: 24px;
   padding-bottom: 120px;
 }
-.list {
+.sec-es-img-all{
+  width: calc((100% - 48px) / 3); 
 }
 
 /**section4*/
@@ -266,7 +277,6 @@ span {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .list {
@@ -275,6 +285,11 @@ span {
 }
 .all {
   background-color: #ffffff;
+  display: block;
+  border-radius: 0px 0px 4px 4px; 
+}
+.mark{
+  padding: 32px 16px;
 }
 .com {
   color: var(--accent-color);
@@ -282,8 +297,9 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
+  padding: 0px; 
 }
 .all-txt {
   color: var(--all-txt-color);
@@ -291,29 +307,21 @@ span {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  text-align: center; 
+  padding: 0px;
 }
-.mfmd {
-}
-.mfmd-txt {
-  font-size: 16px;
-  line-height: 1.5;
-}
-.sex3-img-dw {
-}
+
 /**footer section*/
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 100px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 100px 0;
 }
-.foot-sex {
+.foot-sexion {
+  
 }
 .footer-logo {
+  display: inline-block;
   color: #4d5ae5;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -321,6 +329,7 @@ span {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px; 
 }
 .footer-logo:hover {
   color: #404bbf;
@@ -349,8 +358,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 17.5px;
-  max-width: 264px;
+  width: 264px;
 }
 
 /**--portfolio--*/
@@ -358,11 +366,14 @@ span {
 /**--Header section--*/
 
 /**btn*/
-.portfolio-btn {
+
+.sex-portfolio{
   padding-top: 96px;
-  padding-bottom: 72px;
+   padding-bottom: 120px;
 }
-.vic-hit {
+.portfolio-btn {
+}
+.visually-hidden{
   margin: -1px;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -373,6 +384,7 @@ span {
   gap: 24px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 72px ;
 }
 
 .btn-all {
@@ -398,20 +410,26 @@ span {
 .btn-all:hover {
   color: #fff;
   background: #404bbf;
+  border: 1px solid transparent;
 }
 .btn-all:focus {
   color: #fff;
   background: #404bbf;
+  border: 1px solid transparent;
 }
 .sex-img {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px; 
   background-color: #fff;
+  
 }
 .sex-img-all {
-  isplay: flex;
+  width: calc((100% - 48px) / 3); 
+  display: block;
   width: 360px;
   height: 420px;
   padding-bottom: 0px;
@@ -420,6 +438,9 @@ span {
   gap: 32px;
   flex-shrink: 0;
 }
+.app{
+  padding: 32px 16px
+}
 
 .com {
   color: var(--accent-color);
@@ -427,10 +448,6 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-top: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .all-txt {
   color: var(--all_txt-color);
@@ -438,9 +455,6 @@ span {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
   margin-bottom: 0px;
 }
 .link {
