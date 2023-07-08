@@ -312,9 +312,8 @@ span {
   padding-right: 15px;
 }
 .foot-sex {
-  
 }
-.footer-log {
+.footer-logo {
   color: #4d5ae5;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -359,7 +358,7 @@ span {
 /**--Header section--*/
 
 /**btn*/
-.portfolio-btn{
+.portfolio-btn {
   padding-top: 96px;
   padding-bottom: 72px;
 }
@@ -373,9 +372,9 @@ span {
   margin: 0 auto;
   gap: 24px;
   justify-content: center;
-align-items: center;}
-  
- 
+  align-items: center;
+}
+
 .btn-all {
   color: #4d5ae5;
   font-size: 16px;
@@ -383,11 +382,11 @@ align-items: center;}
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-   display: flex;
-padding: 12px 24px;
-border-radius: 4px;
-border: 1px solid  #E7E9FC;
-background-color:  #F4F4FD;
+  display: flex;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background-color: #f4f4fd;
 }
 
 .btn-all {
@@ -404,24 +403,22 @@ background-color:  #F4F4FD;
   color: #fff;
   background: #404bbf;
 }
-.sex-img{
+.sex-img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  background-color: #FFF;
+  background-color: #fff;
 }
-.sex-img-all{
+.sex-img-all {
   isplay: flex;
-width: 360px;
-height: 420px;
-padding-bottom: 0px;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
-flex-shrink: 0;
-  
-
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
 }
 
 .com {
