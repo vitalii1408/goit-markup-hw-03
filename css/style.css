@@ -440,6 +440,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
  
+ 
 }
 .web-txt {
   color: var(--all_txt-color);
@@ -452,7 +453,9 @@ img {
 }
 .link {
 }
-.coms {
+.coms { 
+  margin-bottom: 8px
+ 
 }
 .tec {
 }
