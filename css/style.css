@@ -41,6 +41,18 @@ span {
 img {
   display: block;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .link {
   text-decoration: none;
@@ -85,10 +97,6 @@ img {
   gap: 40px;
 }
 
-.lict {
-  display: flex;
-  gap: 40px;
-}
 .mailo {
   display: flex;
   gap: 40px;
@@ -117,6 +125,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  gap: 40px;
 }
 .header-spc:hover {
   color: #404bbf;
@@ -126,7 +135,6 @@ img {
 }
 .adres {
   font-style: normal;
-  gap: 40px;
 }
 
 .lict {
@@ -135,6 +143,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .linc-com-tel {
