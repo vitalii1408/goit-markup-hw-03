@@ -125,7 +125,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  gap: 40px;
 }
 .header-spc:hover {
   color: #404bbf;
@@ -143,7 +142,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .linc-com-tel {
@@ -448,6 +446,7 @@ img {
 }
 .app {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
 }
 
 .com {
