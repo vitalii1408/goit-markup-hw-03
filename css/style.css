@@ -94,7 +94,7 @@ img {
 }
 .header-cont {
   display: flex;
-  gap: 40px;
+  
 }
 
 .mailo {
@@ -289,7 +289,6 @@ img {
 }
 .list {
   display: flex;
-  gap: 24px;
 }
 .all {
   background-color: #ffffff;
@@ -447,6 +446,7 @@ img {
 .app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
+  border-top: none;
 }
 
 .com {
