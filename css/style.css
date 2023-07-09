@@ -280,17 +280,21 @@ img {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
+  
 }
 .lint {
   display: flex;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px; 
+  
 }
 .all {
   max-width: 264px;
+  border-radius: 0px 0px 4px 4px; 
 }
 .mark {
   padding: 32px 16px;
+  
+  
 }
 .com {
   color: var(--accent-color);
@@ -301,6 +305,7 @@ img {
   margin-bottom: 8px;
   text-align: center;
   padding: 0px;
+  text-align: center;
 }
 .all-txt {
   color: var(--all-txt-color);
@@ -310,6 +315,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   padding: 0px;
+  text-align: center;
 }
 
 /**footer section*/
@@ -424,28 +430,29 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  text-align: left;
 }
 
-.com {
+.app-txt {
   color: var(--accent-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+ 
 }
-.all-txt {
+.web-txt {
   color: var(--all_txt-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   margin-bottom: 0px;
-  text-align: left;
+  
 }
 .link {
 }
-.com {
+.coms {
 }
 .tec {
 }
