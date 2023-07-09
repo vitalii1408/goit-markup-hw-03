@@ -137,6 +137,7 @@ img {
 }
 
 .lict {
+  display: flex;
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -258,7 +259,7 @@ img {
   margin-bottom: 72px;
 }
 .sec-wd-img {
-  display: block;
+  display: flex;
   gap: 24px;
   padding-bottom: 120px;
 }
@@ -287,8 +288,9 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.list {
+.lint {
   display: flex;
+  gap: 24px; 
 }
 .all {
   background-color: #ffffff;
@@ -385,7 +387,8 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.btn {
+.btn{
+  display: flex;
   margin: 0 auto;
   gap: 24px;
   justify-content: center;
