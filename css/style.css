@@ -285,7 +285,6 @@ img {
 .lint {
   display: flex;
   gap: 24px;
-  
 }
 .all {
   max-width: 264px;
@@ -454,6 +453,11 @@ img {
 .link {
 }
 .coms { 
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px
  
 }
